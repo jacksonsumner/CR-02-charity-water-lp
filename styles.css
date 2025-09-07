@@ -2,12 +2,12 @@
    BRAND TOKENS
    ========================= */
 :root {
-  --brand-navy: #162f57;
-  --brand-yellow: #ffd11a;
-  --brand-yellow-press: #e6bd07;
+  --brand-navy: #003366;
+  --brand-yellow: #ffc907;
+  --brand-yellow-press: #ffc907;
   --brand-white: #ffffff;
   --brand-text: #0f172a;
-  --focus: #2dd4bf;
+  --focus: #fff7e1;
   --radius: 14px;
   --shadow: 0 10px 30px rgba(0,0,0,.12);
 }
@@ -18,7 +18,7 @@
 *::after { box-sizing: border-box; }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Proxima Nova',;
   margin: 0;
   color: var(--brand-text);
   background: var(--brand-white);
@@ -69,7 +69,7 @@ header {
 
 .hero-left {
   background: var(--brand-navy);
-  color: var(--brand-white);
+  color: var(--focus);
   display: flex;
   align-items: center;
   padding: min(7vw, 80px);
@@ -158,8 +158,8 @@ header {
    ========================= */
 footer {
   padding: 28px 20px 40px;
-  background: #0f2448;
-  color: #cbd5e1;
+  background: #ffc907;
+  color: #0f172a;
   text-align: center;
   font-size: 14px;
 }

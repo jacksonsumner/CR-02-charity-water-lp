@@ -15,52 +15,61 @@
 
   <!-- HEADER -->
   <header>
-    <div class="container">
-      <div class="brand" aria-label="charity: water">
-        <span class="mark"></span>
-        <span>charity: water</span>
-      </div>
+    <!-- Simple container to keep the logo and brand name together in a row -->
+    <div style="display: flex; align-items: center;">
+      <!-- Logo image for the header, aligned to the left and made smaller for a shorter header -->
+      <img 
+        src="img/water-can-transparent.png" 
+        alt="logo" 
+        style="height:40px; margin: 4px 0 4px 8px;">
+      <!-- Brand name right beside the logo, sized to match the image -->
+      <span style="font-weight: bold; font-size: 1.5em; margin-left: 4px;">
+        charity: water
+      </span>
     </div>
   </header>
+     
 
   <!-- HERO -->
   <section class="hero" role="banner" aria-label="Donation call to action">
     <!-- Right side image -->
     <div class="hero-right">
       <!-- Replace with your actual image -->
-      <img src="hero.jpg" alt="Family collecting clean water">
+      <img src="img/hero.png" alt="Family collecting clean water">
     </div>
 
-    <!-- Left side content -->
+    
     <div class="hero-left">
       <div class="container">
-        <h1 class="headline">
+        <!-- Headline text is now much bigger and centered -->
+        <h1 class="headline" style="font-size: 5em; text-align: center; margin-bottom: 70px;">
           See change happen,<br>
           drop by drop
         </h1>
 
-        <p class="subcopy">
+        <!-- Subcopy text is now a bit bigger and centered -->
+        <p class="subcopy" style="font-size: 1.5em; text-align: center;">
           No matter the size, every donation creates a measurable impact.
           You’ll know exactly where your generosity flows.
         </p>
 
-        <div class="actions">
-          <a class="btn btn-secondary" href="#subscribe">
-            Join our mailing list ➜
+        <div class="buttons">
+          <!-- Mailing list button on its own row with space below -->
+          <a class="btn btn-secondary" href="#subscribe" style="display: block; margin-bottom: 16px; text-align: center; font-size: 1em; padding: 10px 0;">
+            JOIN OUR MAILING LIST ➜
           </a>
-          <a class="btn btn-primary" href="#donate">
-            DONATE TODAY
+          <!-- Give water button on its own row with space below -->
+          <a class="btn btn-primary" href="#donate" style="display: block; margin-bottom: 16px; text-align: center; font-size: 1em; padding: 10px 0;">
+            GIVE WATER TODAY
           </a>
         </div>
 
-        <div class="payment-row">
-          <!-- Replace placeholders with your own images -->
-          <img src="amex.png" alt="American Express">
-          <img src="mastercard.png" alt="MasterCard">
-          <img src="visa.png" alt="Visa">
-          <img src="discover.png" alt="Discover">
-          <img src="venmo.png" alt="Venmo">
-          <img src="applepay.png" alt="Apple Pay">
+        <div class="payment-row" style="text-align: left; margin-top: 20px;">
+          <!-- Payment method images are aligned with the action buttons -->
+          <!-- Each image has a little space to the right for separation -->
+          <img src="img/creditcards.png" alt="credit cards" style="height:32px; margin-right: 8px;">
+          <img src="img/venmo.png" alt="Venmo" style="height:32px; margin-right: 8px;">
+          <img src="img/applepay.png" alt="Apple Pay" style="height:32px;">
         </div>
       </div>
     </div>
