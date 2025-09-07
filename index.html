@@ -1,47 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>charity: water — See change happen, drop by drop</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="brand" aria-label="charity: water">
+        <span class="mark"></span>
+        <span>charity: water</span>
+      </div>
+    </div>
+  </header>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+  <!-- HERO -->
+  <section class="hero" role="banner" aria-label="Donation call to action">
+    <!-- Right side image -->
+    <div class="hero-right">
+      <!-- Replace with your actual image -->
+      <img src="hero.jpg" alt="Family collecting clean water">
+    </div>
+
+    <!-- Left side content -->
+    <div class="hero-left">
+      <div class="container">
+        <h1 class="headline">
+          See change happen,<br>
+          drop by drop
+        </h1>
+
+        <p class="subcopy">
+          No matter the size, every donation creates a measurable impact.
+          You’ll know exactly where your generosity flows.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-secondary" href="#subscribe">
+            Join our mailing list ➜
+          </a>
+          <a class="btn btn-primary" href="#donate">
+            DONATE TODAY
+          </a>
         </div>
-    </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+        <div class="payment-row">
+          <!-- Replace placeholders with your own images -->
+          <img src="amex.png" alt="American Express">
+          <img src="mastercard.png" alt="MasterCard">
+          <img src="visa.png" alt="Visa">
+          <img src="discover.png" alt="Discover">
+          <img src="venmo.png" alt="Venmo">
+          <img src="applepay.png" alt="Apple Pay">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    Built with ❤️ for transparency and impact. <br />
+    © 2025 charity: water (demo).
+  </footer>
+
 </body>
 </html>
