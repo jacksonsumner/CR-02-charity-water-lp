@@ -1,85 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>charity: water — See change happen, drop by drop</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Support clean water projects through charity: water. Explore how public donations fund the work and give through the official donation page.">
+    <meta name="theme-color" content="#2E9DF7">
+    <title>charity: water | See change happen, drop by drop</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="charity: water, landing page home">
+        <img class="brand-logo" src="img/charitywater_logo_horizontal_BlackText.png" alt="charity: water" width="751" height="751">
+      </a>
+      <a class="header-link" href="#how-it-works">How your gift helps <span aria-hidden="true">↗</span></a>
+    </header>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- External CSS -->
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <!-- HEADER -->
-  <header>
-    <!-- Simple container to keep the logo and brand name together in a row -->
-    <div style="display: flex; align-items: center;">
-      <!-- Logo image for the header, aligned to the left and made smaller for a shorter header -->
-      <img 
-        src="img/water-can-transparent.png" 
-        alt="logo" 
-        style="height:40px; margin: 4px 0 4px 8px;">
-      <!-- Brand name right beside the logo, sized to match the image -->
-      <span style="font-weight: bold; font-size: 1.5em; margin-left: 4px;">
-        charity: water
-      </span>
-    </div>
-  </header>
-     
-
-  <!-- HERO -->
-  <section class="hero" role="banner" aria-label="Donation call to action">
-    <!-- Right side image -->
-    <div class="hero-right">
-      <!-- Replace with your actual image -->
-      <img src="img/hero.png" alt="Family collecting clean water">
-    </div>
-
-    
-    <div class="hero-left">
-      <div class="container">
-        <!-- Headline text is now much bigger and centered -->
-        <h1 class="headline" style="font-size: 5em; text-align: center; margin-bottom: 70px;">
-          See change happen,<br>
-          drop by drop
-        </h1>
-
-        <!-- Subcopy text is now a bit bigger and centered -->
-        <p class="subcopy" style="font-size: 1.5em; text-align: center;">
-          No matter the size, every donation creates a measurable impact.
-          You’ll know exactly where your generosity flows.
-        </p>
-
-        <div class="buttons">
-          <!-- Mailing list button on its own row with space below -->
-          <a class="btn btn-secondary" href="#subscribe" style="display: block; margin-bottom: 16px; text-align: center; font-size: 1em; padding: 10px 0;">
-            JOIN OUR MAILING LIST ➜
-          </a>
-          <!-- Give water button on its own row with space below -->
-          <a class="btn btn-primary" href="#donate" style="display: block; margin-bottom: 16px; text-align: center; font-size: 1em; padding: 10px 0;">
-            GIVE WATER TODAY
-          </a>
+    <main id="main-content" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span>Clean water. Lasting change.</p>
+          <h1 id="hero-heading">See change happen, drop by drop.</h1>
+          <p class="subcopy">Every gift supports clean water projects. Help people get the water they need to live, learn, and grow.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="https://www.charitywater.org/donate">Give water today <span aria-hidden="true">↗</span></a>
+            <p class="donation-note">Give through charity: water’s official website.</p>
+            <a class="secondary-link" href="https://www.charitywater.org/mailing_list_subscribers/new">Join the mailing list <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
+        <figure class="hero-media">
+          <img class="hero-photo" src="img/hero.png" alt="A person fills a yellow jerrycan at a tap while carrying a child." width="1067" height="1600" fetchpriority="high" decoding="async">
+          <figcaption class="photo-caption"><span class="caption-dot" aria-hidden="true"></span>People first. Clean water for everyone.</figcaption>
+        </figure>
+      </section>
 
-        <div class="payment-row" style="text-align: left; margin-top: 20px;">
-          <!-- Payment method images are aligned with the action buttons -->
-          <!-- Each image has a little space to the right for separation -->
-          <img src="img/creditcards.png" alt="credit cards" style="height:32px; margin-right: 8px;">
-          <img src="img/venmo.png" alt="Venmo" style="height:32px; margin-right: 8px;">
-          <img src="img/applepay.png" alt="Apple Pay" style="height:32px;">
+      <section class="impact" id="how-it-works" aria-labelledby="impact-heading">
+        <div class="impact-number" aria-hidden="true">100<span>%</span></div>
+        <div class="impact-copy">
+          <p class="eyebrow">Your generosity at work</p>
+          <h2 id="impact-heading">100% of public donations fund clean water projects.</h2>
+          <p>A separate community of private donors funds operating expenses. Your gift supports the clean water work.</p>
+          <a class="text-link" href="https://www.charitywater.org/our-approach/100-percent-model">See how the funding model works <span aria-hidden="true">↗</span></a>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
+    </main>
 
-  <!-- FOOTER -->
-  <footer>
-    Built with ❤️ for transparency and impact. <br />
-    © 2025 charity: water (demo).
-  </footer>
-
-</body>
+    <footer class="site-footer">
+      <p>Student concept by Jackson Sumner <span aria-hidden="true">·</span> 2026</p>
+      <p>Donation and email signup links open charity: water’s official website.</p>
+    </footer>
+  </body>
 </html>
